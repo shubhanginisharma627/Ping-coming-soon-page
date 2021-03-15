@@ -1,0 +1,121 @@
+body {
+  font-size: 20px;
+  font-family: "Libre Franklin", sans-serif;
+  text-align: center;
+}
+
+h1 span {
+  font-weight: 300;
+  color: #969696;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+form .form-group {
+  width: 30%;
+  padding: 2.25rem;
+}
+
+form .form-control {
+  padding: 0.5rem;
+  height: 2.375rem;
+  width: 100%;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #c2d3ff;
+  border-radius: 50px;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+form #message {
+  font-size: 15px;
+  color: #ff5263;
+  display: none;
+}
+
+.main {
+  padding: 20px 90px;
+}
+
+.main img {
+  width: 100%;
+  height: auto;
+}
+
+.sec {
+  padding-bottom: 20px;
+}
+
+.sec span {
+  border-radius: 50%;
+  margin: 5px 10px;
+  padding: 10px;
+  color: #4f7df3;
+  border: 1px solid #c2d3ff;
+}
+
+button {
+  background-color: #4f7df3;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 50px;
+  -webkit-box-shadow: 5px 10px 18px #c2d3ff;
+          box-shadow: 5px 10px 18px #c2d3ff;
+  height: 2.375rem;
+  padding: 20px 55px 35px 55px;
+  color: white;
+  cursor: pointer;
+}
+
+.error {
+  border: 1px solid #ff5263;
+}
+
+.one {
+  font-size: 15px;
+}
+
+@media (max-width: 375px) {
+  .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main {
+    padding: 0px;
+  }
+  button {
+    width: 100%;
+    margin: 0px 15px 15px  15px;
+  }
+  form .form-group {
+    width: 100%;
+    padding: 1.25rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
